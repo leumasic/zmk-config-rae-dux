@@ -23,11 +23,6 @@
 #define NUM_L   2
 #define NAV_L   3
 
-#define CUT   LG(X)
-#define COPY  LG(C)
-#define PASTE LG(V)
-
-#define MEH(KEY) LS(LC(LA(LG(KEY))))
 
 / {
     macros {
@@ -138,9 +133,9 @@
 
 		sym_layer {
 			bindings = <
-                   &kp trans    &kp trans     &kp LBKT      &kp RBKT        &kp trans   /*&  &*/      &kp RALT(CARET) &kp trans        &kp trans            &kp trans      &kp trans
-                   &kp trans    &kp trans     &kp LPAR      &kp RPAR        &kp trans   /*&  &*/      &kp CARET       &kp SQT          &kp DQT              &kp GRAVE      &kp NUBS
-                   &kp trans    &kp trans     &kp LBRC      &kp RBRC        &kp trans   /*&  &*/      &trans          &kp trans        &kp trans            &kp trans      &kp QMARK
+                   &trans       &trans        &kp LBKT      &kp RBKT        &trans      /*&  &*/      &kp RALT(CARET) &trans           &trans               &trans         &trans   
+                   &trans       &trans        &kp LPAR      &kp RPAR        &trans      /*&  &*/      &kp CARET       &kp SQT          &kp DQT              &kp GRAVE      &kp NUBS
+                   &trans       &trans        &kp LBRC      &kp RBRC        &trans      /*&  &*/      &trans          &trans           &trans               &trans         &kp QMARK
 				 /*&                    &*/           &trans        &trans          &trans      /*&  &*/      &trans          &trans           &trans                 /*&             &*/
 			>;
 		};
