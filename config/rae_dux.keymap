@@ -91,6 +91,7 @@
         tmt: thumb_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "THUMB_HOLD_TAP";
+            #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
