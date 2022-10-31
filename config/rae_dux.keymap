@@ -135,8 +135,8 @@
 
 		sym_layer {
 			bindings = <
-                   &trans       &trans        &kp LBKT     &kp RBKT     &trans     /*&  &*/    &kp RA(CARET) &kp RA(SQT) &kp RA(DQT)  &kp RA(GRAVE) &trans   
-                   &trans       &trans        &kp LPAR     &kp RPAR     &trans     /*&  &*/    &kp CARET    &kp SQT      &kp DQT      &kp GRAVE    &kp BSLH
+                   &trans       &kp RA(E)     &kp LBKT     &kp RBKT     &trans     /*&  &*/    &kp RA(CARET) &kp RA(SQT) &kp RA(DQT)  &kp RA(GRAVE) &trans   
+                   &kp LSHFT    &trans        &kp LPAR     &kp RPAR     &trans     /*&  &*/    &kp CARET    &kp SQT      &kp DQT      &kp GRAVE    &kp BSLH
                    &trans       &trans        &kp LBRC     &kp RBRC     &trans     /*&  &*/    &trans       &trans       &trans       &trans       &trans
 				 /*&                    &*/           &trans       &trans       &trans     /*&  &*/    &trans       &trans       &trans       /*&           &*/
 			>;
@@ -156,7 +156,7 @@
                    &trans       &trans       &trans       &trans       &trans      /*&  &*/    &kp PG_UP    &kp HOME     &kp UP       &kp END      &trans
                    &kp LALT     &kp LGUI     &kp LSHFT    &kp LCTRL    &trans      /*&  &*/    &kp PG_DN    &kp LEFT     &kp DOWN     &kp RIGHT    &trans
                    &trans       &trans       &trans       &trans       &trans      /*&  &*/    &kp DEL      &trans       &trans       &trans       &trans
-				 /*&                    &*/          &trans       &trans       &trans      /*&  &*/    &trans       &trans       &trans       /*&           &*/
+				 /*&                    &*/          &trans       &trans       &mo L_ADJ   /*&  &*/    &trans       &trans       &trans       /*&           &*/
 			>;
 		};
 
