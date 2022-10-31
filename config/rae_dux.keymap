@@ -136,7 +136,7 @@
 		sym_layer {
 			bindings = <
                    &trans       &trans        &kp LBKT     &kp RBKT     &trans     /*&  &*/    &trans       &trans       &trans       &trans       &trans   
-                   &trans       &trans        &kp LPAR     &kp RPAR     &trans     /*&  &*/    &kp CARET    &kp SQT      &kp DQT      &kp GRAVE    &kp NUBS
+                   &trans       &trans        &kp LPAR     &kp RPAR     &trans     /*&  &*/    &kp CARET    &kp SQT      &kp DQT      &kp GRAVE    &kp BSLH
                    &trans       &trans        &kp LBRC     &kp RBRC     &trans     /*&  &*/    &trans       &trans       &trans       &trans       &trans
 				 /*&                    &*/           &trans       &trans       &trans     /*&  &*/    &trans       &trans       &trans       /*&           &*/
 			>;
