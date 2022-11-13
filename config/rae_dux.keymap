@@ -39,7 +39,7 @@
           timeout-ms = <50>;
           key-positions = <34 35>;
           bindings = <&mo BLE_L>;
-        }
+        };
 
 
         /*                KEY POSITIONS
