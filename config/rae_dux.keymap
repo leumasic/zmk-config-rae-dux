@@ -35,13 +35,12 @@
 
     combos {
         compatible = "zmk,combos";
+        combo_ble_layer {
+          timeout-ms = 50;
+          key-positions = <34 35>;
+          bindings = <&mo BLE_L>;
+        }
 
-        #define COMBO(NAME, BINDINGS, KEYPOS, TIMEOUT) \
-              combo_##NAME { \
-                timeout-ms = <TIMEOUT>; \
-                bindings = <BINDINGS>; \
-                key-positions = <KEYPOS>; \
-              };
 
         /*                KEY POSITIONS
 
@@ -52,7 +51,6 @@
           ╰───────╮ 30  31  32 │ │ 33  34  35 ╭───────╯
                   ╰────────────╯ ╰────────────╯        */
 
-        COMBO(ble_layer, &mo BLE_L, 34, 35, 60)
     };
 
     behaviors {
@@ -122,7 +120,7 @@
                    &kp Q        &kp W         &kp E        &kp R        &kp T     /*&  &*/    &kp Y              &kp U               &kp I                 &kp O         &kp P
                    &lhm LGUI A  &lhm LCTRL S  &lhm LSHFT D &lhm LALT F  &kp G     /*&  &*/    &kp H              &rhm LALT J         &rhm RSHFT K          &rhm LCTRL L  &rhm RGUI SEMI
                    &kp Z        &kp X         &kp C        &kp V        &kp B     /*&  &*/    &kp N              &kp M               &kp COMMA             &kp DOT       &kp FSLH
-				 /*&            &*/     &tmt LALT TAB  &tmt LSHFT SPC  &base_lt SYM_L ESC /*&  &*/  &base_lt NUM_L BSPC   &base_lt NAV_L RET  &trans  /*&             &*/
+				 /*&            &*/     &tmt LALT TAB  &tmt LSHFT SPC  &base_lt SYM_L ESC /*&  &*/  &base_lt NUM_L BSPC  &base_lt NAV_L RET  &trans  /*&             &*/
 			>;
 		};
 
