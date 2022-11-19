@@ -83,7 +83,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "THUMB_HOLD_TAP";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             global-quick-tap-ms = <100>;
@@ -93,22 +93,11 @@
             compatible = "zmk,behavior-hold-tap";
             label = "BASE_LAYER_HOLD_TAP";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             global-quick-tap-ms = <100>;
             bindings = <&mo>, <&kp>;
-        };
-
-        rpt_lt: repeat_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "REPEAT_HOLD_TAP";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
-            global-quick-tap;
-            bindings = <&mo>, <&key_repeat>;
         };
     };
 
