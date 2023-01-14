@@ -111,9 +111,9 @@
 
 		sym_layer {
 			bindings = <
-                   &trans       &kp RA(E)     &kp LBKT     &kp RBKT     &trans     /*&  &*/    &kp RA(CARET) &kp RA(SQT) &kp RA(DQT)  &kp RA(GRAVE) &trans   
+                   &trans       &kp RA(E)     &kp LBRC     &kp RBRC     &trans     /*&  &*/    &kp RA(CARET) &kp RA(SQT) &kp RA(DQT)  &kp RA(GRAVE) &trans   
                    &kp LSHFT    &trans        &kp LPAR     &kp RPAR     &trans     /*&  &*/    &kp CARET    &kp SQT      &kp DQT      &kp GRAVE    &kp BSLH
-                   &trans       &trans        &kp LBRC     &kp RBRC     &trans     /*&  &*/    &trans       &trans       &trans       &trans       &trans
+                   &trans       &trans        &kp LBKT     &kp RBKT     &trans     /*&  &*/    &trans       &trans       &trans       &trans       &trans
 				 /*&                    &*/           &trans       &trans       &trans     /*&  &*/    &trans       &trans       &trans       /*&           &*/
 			>;
 		};
