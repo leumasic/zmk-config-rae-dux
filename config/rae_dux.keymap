@@ -97,15 +97,15 @@
 		base_layer {
 			bindings = <
                    &kp Q        &kp W         &kp E        &kp R        &kp T     /*&  &*/    &kp Y              &kp U               &kp I                 &kp O         &kp P
-                   &lhm LSHFT A  &lhm LCTRL S  &lhm LSHFT D &lhm LALT F  &kp G    /*&  &*/    &kp H              &rhm LALT J         &rhm RSHFT K          &rhm LCTRL L  &rhm RGUI SEMI
+                   &lhm LSHFT A &blt NAV_L S  &lhm LSHFT D &lhm LALT F  &kp G     /*&  &*/    &kp H              &rhm LALT J         &rhm RSHFT K          &rhm LCTRL L  &rhm RGUI SEMI
                    &kp Z        &kp X         &kp C        &kp V        &kp B     /*&  &*/    &kp N              &kp M               &kp COMMA             &kp DOT       &kp FSLH
-				 /*&        &*/  &tmt LALT TAB    &lhm LGUI SPC    &blt SYM_L ESC /*&  &*/  &blt NUM_L BSPC  &blt NAV_L RET  &kp RALT  /*&             &*/
+				 /*&                &*/     &kp LCTRL    &lhm LGUI SPC    &blt SYM_L ESC  /*&  &*/  &blt NUM_L BSPC  &blt NAV_L RET  &kp RALT  /*&             &*/
 			>;
 		};
 
 		sym_layer {
 			bindings = <
-                   &trans       &kp RA(E)     &kp LBRC     &kp RBRC     &trans     /*&  &*/    &kp RA(N6)   &kp RA(SQT) &kp RA(DQT)  &kp RA(GRAVE) &kp RA(COMMA)
+                   &kp TILDE    &kp RA(E)     &kp LBRC     &kp RBRC     &trans     /*&  &*/    &kp RA(N6)   &kp RA(SQT) &kp RA(DQT)  &kp RA(GRAVE) &kp RA(COMMA)
                    &kp LSHFT    &trans        &kp LPAR     &kp RPAR     &trans     /*&  &*/    &kp CARET    &kp SQT      &kp DQT      &kp GRAVE    &kp BSLH
                    &trans       &trans        &kp LBKT     &kp RBKT     &trans     /*&  &*/    &trans       &trans       &trans       &trans       &trans
 				 /*&                    &*/           &trans       &trans       &trans     /*&  &*/    &trans       &trans       &trans       /*&           &*/
@@ -124,7 +124,7 @@
 		nav_layer {
 			bindings = <
                    &trans       &trans       &trans       &trans       &trans      /*&  &*/    &kp PG_UP    &kp HOME     &kp UP       &kp END      &trans
-                   &kp LGUI     &kp LCTRL    &kp LSHFT    &kp LALT     &trans      /*&  &*/    &kp PG_DN    &kp LEFT     &kp DOWN     &kp RIGHT    &trans
+                   &kp LGUI     &kp LCTRL    &kp LSHFT    &kp LALT     &trans      /*&  &*/    &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &trans
                    &trans       &trans       &trans       &trans       &trans      /*&  &*/    &kp DEL      &trans       &trans       &trans       &trans
 				 /*&                    &*/          &trans       &trans       &mo ADJ_L   /*&  &*/    &trans       &trans       &trans       /*&           &*/
 			>;
